@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28E23491DEBC390004EB4BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D28E23481DEBC390004EB4BC /* AppDelegate.m */; };
+		D28E234C1DEBC390004EB4BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D28E234B1DEBC390004EB4BC /* main.m */; };
+		D28E234E1DEBC390004EB4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28E234D1DEBC390004EB4BC /* Assets.xcassets */; };
+		D28E23511DEBC390004EB4BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D28E234F1DEBC390004EB4BC /* MainMenu.xib */; };
+		D28E23591DEBC3F1004EB4BC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28E23581DEBC3F1004EB4BC /* IOKit.framework */; };
+		D28E235C1DEC2DDC004EB4BC /* USB.icns in Resources */ = {isa = PBXBuildFile; fileRef = D28E235B1DEC2DDC004EB4BC /* USB.icns */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D28E23441DEBC390004EB4BC /* USBDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USBDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28E23471DEBC390004EB4BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D28E23481DEBC390004EB4BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D28E234B1DEBC390004EB4BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D28E234D1DEBC390004EB4BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28E23501DEBC390004EB4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D28E23521DEBC390004EB4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28E23581DEBC3F1004EB4BC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		D28E235B1DEC2DDC004EB4BC /* USB.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = USB.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28E23411DEBC390004EB4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28E23591DEBC3F1004EB4BC /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28E233B1DEBC38F004EB4BC = {
+			isa = PBXGroup;
+			children = (
+				D28E235A1DEBC3FF004EB4BC /* FrameWork */,
+				D28E23461DEBC390004EB4BC /* USBDevice */,
+				D28E23451DEBC390004EB4BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28E23451DEBC390004EB4BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28E23441DEBC390004EB4BC /* USBDevice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28E23461DEBC390004EB4BC /* USBDevice */ = {
+			isa = PBXGroup;
+			children = (
+				D28E23471DEBC390004EB4BC /* AppDelegate.h */,
+				D28E23481DEBC390004EB4BC /* AppDelegate.m */,
+				D28E234D1DEBC390004EB4BC /* Assets.xcassets */,
+				D28E234F1DEBC390004EB4BC /* MainMenu.xib */,
+				D28E23521DEBC390004EB4BC /* Info.plist */,
+				D28E234A1DEBC390004EB4BC /* Supporting Files */,
+			);
+			path = USBDevice;
+			sourceTree = "<group>";
+		};
+		D28E234A1DEBC390004EB4BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28E235B1DEC2DDC004EB4BC /* USB.icns */,
+				D28E234B1DEBC390004EB4BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D28E235A1DEBC3FF004EB4BC /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				D28E23581DEBC3F1004EB4BC /* IOKit.framework */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28E23431DEBC390004EB4BC /* USBDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28E23551DEBC390004EB4BC /* Build configuration list for PBXNativeTarget "USBDevice" */;
+			buildPhases = (
+				D28E23401DEBC390004EB4BC /* Sources */,
+				D28E23411DEBC390004EB4BC /* Frameworks */,
+				D28E23421DEBC390004EB4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USBDevice;
+			productName = USBDevice;
+			productReference = D28E23441DEBC390004EB4BC /* USBDevice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28E233C1DEBC38F004EB4BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = PEGATRON;
+				TargetAttributes = {
+					D28E23431DEBC390004EB4BC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D28E233F1DEBC38F004EB4BC /* Build configuration list for PBXProject "USBDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28E233B1DEBC38F004EB4BC;
+			productRefGroup = D28E23451DEBC390004EB4BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28E23431DEBC390004EB4BC /* USBDevice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28E23421DEBC390004EB4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28E235C1DEC2DDC004EB4BC /* USB.icns in Resources */,
+				D28E234E1DEBC390004EB4BC /* Assets.xcassets in Resources */,
+				D28E23511DEBC390004EB4BC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28E23401DEBC390004EB4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28E234C1DEBC390004EB4BC /* main.m in Sources */,
+				D28E23491DEBC390004EB4BC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D28E234F1DEBC390004EB4BC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28E23501DEBC390004EB4BC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28E23531DEBC390004EB4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D28E23541DEBC390004EB4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D28E23561DEBC390004EB4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = USBDevice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pegatroncorp.USBDevice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D28E23571DEBC390004EB4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = USBDevice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pegatroncorp.USBDevice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28E233F1DEBC38F004EB4BC /* Build configuration list for PBXProject "USBDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28E23531DEBC390004EB4BC /* Debug */,
+				D28E23541DEBC390004EB4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28E23551DEBC390004EB4BC /* Build configuration list for PBXNativeTarget "USBDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28E23561DEBC390004EB4BC /* Debug */,
+				D28E23571DEBC390004EB4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D28E233C1DEBC38F004EB4BC /* Project object */;
+}
